@@ -1,0 +1,16 @@
+{
+  "name": "snapview-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "elm-format",
+    "test": "elm-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm-format": "^0.8.3",
+    "elm-test": "^0.19.1-revision2"
+  }
+}
