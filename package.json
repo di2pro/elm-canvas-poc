@@ -5,12 +5,15 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "format:elm": "elm-format",
+    "format:elm": "elm-format ./src",
     "test": "npm run test:elm && npm run test:js",
     "lint": "eslint ./src",
     "test:elm": "elm-test",
     "test:js": "jest",
-    "test:ci": "npm run lint && npm run format:elm && npm test"
+    "test:ci": "npm run lint && npm run format:elm && npm test",
+    "serve:logo": "serve ./requirements/login-page-replace-logo",
+    "serve:swap": "serve ./requirements/login-page-swap-order",
+    "serve:hide": "serve ./requirements/login-page-hide-account-field"
   },
   "author": "Dmitriy Uvarov <dimmond.pro@gmail.com>",
   "license": "ISC",
@@ -31,6 +34,7 @@
     "jest": "^25.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "prettier": "^2.0.4",
+    "serve": "^11.3.0",
     "style-loader": "^1.1.4",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",

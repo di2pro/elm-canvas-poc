@@ -1,0 +1,8 @@
+form.login > label[for="account"] {
+  display: none;
+  opacity: 0;
+}
+form.login > input#account {
+  display: none;
+  opacity: 0;
+}

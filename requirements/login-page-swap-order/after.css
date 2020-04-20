@@ -1,0 +1,35 @@
+form.login > img {
+  order: -1;
+}
+
+form.login > label[for="username"] {
+  order: 0;
+}
+form.login > input#username {
+  order: 1;
+}
+
+form.login > label[for="account"] {
+  order: 2;
+}
+form.login > input#account {
+  order: 3;
+}
+
+form.login > label[for="session"] {
+  order: 4;
+}
+form.login > input#session {
+  order: 5;
+}
+
+form.login > label[for="password"] {
+  order: 6;
+}
+form.login > input#password {
+  order: 7;
+}
+
+form.login > button.button.default {
+  order: 8;
+}
