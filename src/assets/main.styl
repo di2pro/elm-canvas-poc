@@ -1,2 +1,16 @@
+@import "components/conference.styl"
+@import "components/canvas.styl"
+
 html, body
   height 100%
+
+body
+  display flex
+  flex-direction column
+
+.modal
+  background-color rgba(0, 0, 0, 0.3)
+
+  &--shown
+    display block
+    opacity 1

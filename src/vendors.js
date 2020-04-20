@@ -1,1 +1,1 @@
-import "bulma/css/bulma.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
