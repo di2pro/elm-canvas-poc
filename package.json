@@ -10,7 +10,7 @@
     "lint": "eslint ./src",
     "test:elm": "elm-test",
     "test:js": "jest",
-    "test:ci": "npm run lint && npm run format:elm && npm test",
+    "test:ci": "npm run lint && npm run format:elm -- --yes && npm test",
     "serve:logo": "serve ./requirements/login-page-replace-logo",
     "serve:swap": "serve ./requirements/login-page-swap-order",
     "serve:hide": "serve ./requirements/login-page-hide-account-field",
