@@ -1,5 +1,5 @@
-### Snapview Test Task
-![CI](https://github.com/di2pro/snapview-test-task/workflows/CI/badge.svg)
+### Elm Canvas Proof of concept
+![CI](https://github.com/di2pro/elm-canvas-poc/workflows/CI/badge.svg)
 
 Left features:
 - split Main fail into modules

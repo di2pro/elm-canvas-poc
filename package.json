@@ -1,7 +1,7 @@
 {
-  "name": "snapview-test-task",
+  "name": "elm-canvas-poc",
   "version": "1.0.0",
-  "description": "Check assignment.pdf file in requirements for details",
+  "description": "Screen sharing with elm and canvas",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
