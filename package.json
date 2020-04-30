@@ -11,9 +11,6 @@
     "test:elm": "elm-test",
     "test:js": "jest",
     "test:ci": "npm run lint && npm run format:elm -- --yes && npm test",
-    "serve:logo": "serve css-part/login-page-replace-logo",
-    "serve:swap": "serve css-part/login-page-swap-order",
-    "serve:hide": "serve css-part/login-page-hide-account-field",
     "elm": "elm"
   },
   "author": "Dmitriy Uvarov <dimmond.pro@gmail.com>",
